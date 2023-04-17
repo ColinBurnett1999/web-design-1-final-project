@@ -70,13 +70,19 @@ header > img {
 }
 #quotes h3 {
     text-align: center;
+    font-size: xx-large;
 }
 #quotes > ul {
     display: flex;
     flex-direction: row;
-    font-size: larger;
+    font-size: x-large;
+    font-style: italic;
     text-align: center;
     margin: 5em 10em;
+}
+#cite {
+    color: lightgrey;
+    font-style: normal;
 }
 #contact {
     text-align: center;
