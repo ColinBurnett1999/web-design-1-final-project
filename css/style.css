@@ -1,0 +1,102 @@
+
+img.social {
+    width: 40px;
+    display: flex;
+    
+}
+.icons {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+li {
+    list-style: none;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#bio-pic {
+    float: right;
+}
+#services {
+    display: flex;
+    flex-direction: row;
+}
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 4em;
+    margin: 0px;
+    background-color: black;
+    font-size: large;
+}
+nav > ul > li > a {
+text-decoration: none;
+color: white;
+line-height: 75px;
+font-size: x-large;  
+}
+nav {
+    color: white;
+}
+#work ul {
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+}
+header > img {
+    max-width: max-content;
+    height: auto;
+}
+#about-me {
+    font-size: x-large;
+    text-indent: 5em;
+}
+#about-description {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: larger;
+    line-height: 30px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#quotes {
+    color: white;
+    background-color: black;
+}
+#quotes h3 {
+    text-align: center;
+}
+#quotes > ul {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    text-align: center;
+    margin: 5em 10em;
+}
+#contact {
+    text-align: center;
+    font-size: x-large;
+}
+#service {
+    background-color: whitesmoke;
+    text-align: center;
+}
+#services {
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    background-color: white;
+    text-align: left;  
+    padding: 50px 100px;
+    margin: 30px 80px;
+}
+#work {
+    text-align: center;
+    width: auto;
+    font-size: larger;
+}
