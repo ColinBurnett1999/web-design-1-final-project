@@ -1,4 +1,22 @@
 
+p {
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+h1{
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+h2 {
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+h3 {
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+h4 {
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+h5 {
+    font-family: 'Noto Sans JP', sans-serif;;
+}
 #hero-banner {
     width: 100%;
 }
@@ -58,12 +76,11 @@ nav {
 #work p {
     padding: 0em 25em 3em 25em;
 }
-#work ul {
+#work img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 0%;
-    width: 100%;
+ margin: 0 auto;
 }
 header > img {
     max-width: max-content;
@@ -73,8 +90,7 @@ header > img {
     display: inline-flex;
     flex-direction: column;
     font-size: xx-large;
-    text-indent: 5em;
-    padding: 2em 0em 0em 0em;
+    padding: 2em 0em 0em 155px;
 }
 #about-description {
     display: flex;
@@ -82,7 +98,7 @@ header > img {
     font-size: larger;
     line-height: 30px;
     align-content: left;
-    padding: 0em 10em 75px 8em;
+    padding: 0em 10em 20px 8em;
 }
 #quotes {
     color: white;
@@ -96,7 +112,7 @@ header > img {
 #quotes > ul {
     display: flex;
     flex-direction: row;
-    font-size: x-large;
+    font-size: large;
     font-style: italic;
     text-align: center;
     margin: 3em 12em;
