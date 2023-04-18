@@ -73,14 +73,17 @@ nav {
 #work h2 {
     font-size: xx-large;
 }
-#work p {
-    padding: 0em 25em 3em 25em;
+.wrapper {
+    margin: 0 auto;
+    max-width: 1280px;
 }
-#work img {
+#work p {
+padding: 2em;
+}
+#work div {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
- margin: 0 auto;
 }
 header > img {
     max-width: max-content;
