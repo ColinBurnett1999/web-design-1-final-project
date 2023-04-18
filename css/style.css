@@ -1,8 +1,10 @@
 
+#hero-banner {
+    width: 100%;
+}
 img.social {
     width: 40px;
-    display: flex;
-    
+    display: flex;   
 }
 .icons {
 display: flex;
@@ -48,18 +50,19 @@ nav {
     color: white;
 }
 #work {
-    padding: 6em 0em;
+    padding: 5em 0em 6em 0em;
 }
 #work h2 {
     font-size: xx-large;
 }
 #work p {
-    padding: 0em 25em;
+    padding: 0em 25em 3em 25em;
 }
 #work ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0%;
     width: 100%;
 }
 header > img {
@@ -67,16 +70,19 @@ header > img {
     height: auto;
 }
 #about-me {
-    font-size: x-large;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: xx-large;
     text-indent: 5em;
+    padding: 2em 0em 0em 0em;
 }
 #about-description {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     font-size: larger;
     line-height: 30px;
-    flex-direction: row;
     align-content: left;
+    padding: 0em 10em 75px 8em;
 }
 #quotes {
     color: white;
